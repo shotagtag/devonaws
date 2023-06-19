@@ -1,0 +1,58 @@
+{
+    "Demo-Music": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Singer": {
+                        "S": "John"
+                    },
+                    "Title": {
+                        "S": "ABC"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Singer": {
+                        "S": "Marry"
+                    },
+                    "Title": {
+                        "S": "Hi"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Singer": {
+                        "S": "Bob"
+                    },
+                    "Title": {
+                        "S": "Hello"
+                    },
+                    "ReleaseDate": {
+                        "S": "20220610"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Singer": {
+                        "S": "John"
+                    },
+                    "Title": {
+                        "S": "XYZ"
+                    },
+                    "ReleaseDate": {
+                        "S": "20220610"
+                    }
+                }
+            }
+        }
+    ]
+}
