@@ -3,7 +3,7 @@ import boto3
 
 region = 'ap-northeast-1'
 bucket_name = '好きなバケット名'
-key = 'sample/mycat01.png'
+key = 'sample/mycat01.jpeg'
 
 # s3クライアント作成
 s3 = boto3.client('s3', region_name=region)
