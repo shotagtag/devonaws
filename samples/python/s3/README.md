@@ -3,8 +3,8 @@
 ### 準備
 
 ```
-git clone https://github.com/areph/aws.git
-cd ~/environment/aws/samples/python/s3
+git clone https://github.com/shotagtag/devonaws.git
+cd ~/environment/devonaws/samples/python/s3
 ```
 ### リージョンを取得
 
@@ -73,22 +73,6 @@ s3get.py の下記を変更します
 
 ```
 python s3get.py
-```
-
-### S3 Select
-
-data/sample.csvの中身を確認します
-s3select.py の下記を変更します
-- バケット名
-- リージョン
-
-sample.csvをアップロードしたあと、 `select_object_content` で S3 Select を行います。
-このとき、 S3 Select は `resource API` にないため、 `client API` を使って操作します
-
-[S3 — Boto3 Docs 1.26.65 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html#S3.Client.select_object_content)
-
-```
-python s3select.py
 ```
 
 ### 署名付きURL
