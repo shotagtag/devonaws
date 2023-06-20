@@ -6,8 +6,7 @@
 - マネジメントコンソールから Lambda 関数を作成
   - 関数名は `hello-world-function` を入力
   - Python 3.9 を選択
-  - 実行ロールに DynamoDB への権限が付与されたロールを選択
-    - ラボでは `lambdaPollyRole` を使用します
+  - 実行ロールに `lambdaPollyRole` を使用します
     - ラボ環境の都合上、指定しないと進めないため指定します
 - Lambda 関数のコードに [hello.py](https://github.com/shotagtag/devonaws/blob/main/samples/python/lambda/hello.py) のソースコードを転記
 - `Deploy` ボタンでソースコードをデプロイします
@@ -19,7 +18,7 @@
 
 ----
 
-### Lambda をマネジメントコンソールで操作
+### Lambda 関数をマネジメントコンソールで作成してみよう
 
 - マネジメントコンソールから Lambda 関数を作成
   - Python 3.9 を選択
