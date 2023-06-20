@@ -7,7 +7,7 @@
 
 ```shell
 git clone https://github.com/shotagtag/devonaws.git
-cd ~/environment/aws/samples/python/ddb
+cd ~/environment/devonaws/samples/python/ddb
 ```
 
 ### テーブル作成
