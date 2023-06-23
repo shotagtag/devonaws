@@ -12,20 +12,20 @@ git clone https://github.com/shotagtag/devonaws.git
 ```
 
 ## Mod3 Cloud9 でサンプルコードを実行
-### Python で実施する場合
 
-Pythonを実行する際にはboto3をライブラリとしてインストールしておきます
+Python用の AWS SDK(boto3)をライブラリとしてインストールしておきます
 
 ```shell
-python3 -m pip install --user boto3
+python3 -m pip install boto3
 ```
 
-GUIで実行する場合
+GUIでサンプルプログラムを実行してみよう🚀
 
-- [Run]->[Python]
-- sample/python/helloaws.py
+- Cloud9 画面左のファイルエクスプローラーで devonaws/samples/helloaws.py をダブルクリックします。コードエディタで中身が開かれます
+- Cloud9 画面上部の緑の [Run] ボタンを押します
+- Cloud9 下部に実行結果が表示されます
 
-CUIで実行する場合
+CUIでサンプルプログラム実行してみよう🚀
 
 ```shell
 python ~/environment/aws/samples/python/helloaws.py
