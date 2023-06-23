@@ -19,15 +19,17 @@ Python用の AWS SDK(boto3)をライブラリとしてインストールして�
 python3 -m pip install boto3
 ```
 
-GUIでサンプルプログラムを実行してみよう🚀
+# GUIでサンプルプログラムを実行してみよう🚀
 
 - Cloud9 画面左のファイルエクスプローラーで devonaws/samples/helloaws.py をダブルクリックします。コードエディタで中身が開かれます
 - Cloud9 画面上部の緑の [Run] ボタンを押します
-- Cloud9 下部に実行結果が表示されます
+- Cloud9 画面下部に実行結果が表示されます
 
-CUIでサンプルプログラム実行してみよう🚀
+# CUIでサンプルプログラム実行してみよう🚀
+
+- Cloud9 画面下部のターミナルでコマンドを実行します。
 
 ```shell
-python ~/environment/aws/samples/python/helloaws.py
+python ~/environment/devonaws/samples/helloaws.py
 ```
 
