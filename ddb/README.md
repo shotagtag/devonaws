@@ -17,6 +17,9 @@ aws dynamodb create-table \
 ```
 
 ### テストデータ投入
+
+- マネジメントコンソールでDynamoDBを見てデータが投入されたか確認しましょう。以降も都度マネジメントコンソールも見ながら進めると理解の助けになります👍
+
 ```shell
 aws dynamodb put-item \
 --table-name Demo-Music \
