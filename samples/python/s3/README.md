@@ -15,7 +15,7 @@ echo $REGION
 
 ### ソースコードの確認
 
-ソースコードに埋め込まれているリージョンは上記shellで出力されたリージョンに変更してください
+ソースコードに埋め込まれているリージョンは上記shellで出力されたリージョンに変更してください。
 
 ### boto3 API リファレンスの調べ方
 
@@ -38,7 +38,7 @@ echo $REGION
 
 ### S3バケットを作成して完了するまで待つ
 
-devonaws/samples/python/s3　フォルダの `s3bucket.py` を Cloud9 で開きます。 `client API` (低レベルAPI)でバケットを作成するコードを確認します。
+Cloud9 の左メニューで devonaws/samples/python/s3　フォルダの`s3bucket.py`を開きます。 `client API` (低レベルAPI)でバケットを作成するコードを確認します。確認後、バケットを作成するコードを実行します。
 
 ```
 python s3bucket.py
